@@ -1,3 +1,5 @@
+package learning;
+
 //  written by opkp , discord id- opkp#7340, email - harspandeykp20@gmail.com
 import java.util.*;
 
@@ -28,9 +30,16 @@ public class Sink_a_Dotcom {
 		//inputing in the dot coms that the user has to take down to win the world
 		DotComs.add("youtube.com"); DotComs.add("reddit.com"); DotComs.add("4chan.com");
 		
-		//basic intro given to the user
-		System.out.println("Hello player, In this game you'll have to sink all the dot coms \nand thus establishing business relevancy so you can expense the cost of your products \n ");
+		//basic intro given to the user and the intro given to the user .
+		System.out.println("Sup gegs , In this game you'll have to sink all the dot coms "
+				         + "/n and thus establishing business relevancy so you can expense the cost of your products!\n ");
+		
 		System.out.println("HERE ARE THE RULES AND INSTRUCTIONS ->> You get infinite chances and just try to guess where the dot coms are.\n\n\n>>");
+		System.out.println("And here is some story , so there are some really big websites in the game which won't let you get to top so insted of working hard"
+							+ "\n you thought that why not take those websites down ,for that you made a really strong gun. After some time,"
+							+ "\n you went to there small 2D world (of those websites) and now"
+							+ "\n you will use that gun named {kok} to destory those websites and for that you have to destroy those website's bases."
+							+ "\n Locate them and get on with it . Locations eg- b4 ( or B4).");
 		
 		//calling checkguess to check the guess
 		while(whenToEnd< 3) {
